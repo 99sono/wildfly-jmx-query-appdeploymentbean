@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    List of schema versions for http://xmlns.oracle.com/weblogic/weblogic-web-app
+        1.0 : Released with WLS v10.3.1.0
+        1.1 : Released with WLS v10.3.3.0
+        1.2 : Released with WLS v10.3.4.0
+        1.3 : Released with WLS v10.3.6.0
+        1.4 : Released with WLS v12.1.1.0
+        1.5 : Released with WLS v12.1.2.0
+        1.7 : Released with WLS v12.1.3.0
+        1.8 : Released with WLS v12.2.1.0
+        1.9 : Released with WLS v12.2.1.1.0
+    REFERENCES:
+        http://www.oracle.com/webfolder/technetwork/weblogic/weblogic-web-app/index.html 
+ --><wls:weblogic-web-app xmlns:wls="http://xmlns.oracle.com/weblogic/weblogic-web-app" xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-web-app http://xmlns.oracle.com/weblogic/weblogic-web-app/1.9/weblogic-web-app.xsd">
+    <wls:context-root>wls-jsf-2-2-12-multiple-mojarra-initializations</wls:context-root>
+
+   
+</wls:weblogic-web-app>

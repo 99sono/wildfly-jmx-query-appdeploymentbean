@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core">
+
+<!-- Refers to the application.properties file  -->
+<f:loadBundle basename="application" var="msg" />
+<f:view transient="true" />   
+
+<head>
+<title><h:outputText value="#{msg.welcomeTitle}" /></title>
+</head>
+
+<body>
+    <h3>
+        <h:outputText value="#{msg.welcomeHeading}" />
+    </h3>
+    <p>
+        <h:outputText value="#{msg.welcomeMessage}" />
+    </p>
+
+    <p>
+        <h:outputText value="Start and stop timer - #{timerController.controllerName}" />
+    </p>
+    
+    <!-- Configure any fields or actions that are relevant for a bug withing the following form -->
+    <h:form id="bugReportForm">
+        
+    </h:form>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--    
+    List of schema versions for http://xmlns.oracle.com/weblogic/weblogic-ejb-jar
+    1.0 : Released with WLS v10.3.1.0
+    1.1 : Released with WLS v10.3.3.0
+    1.2 : Released with WLS v10.3.4.0
+    1.3 : Released with WLS v12.1.1.0
+    1.4 : Released with WLS v12.1.2.0
+    1.5 : Released with WLS v12.1.3.0
+    1.6 : Released with WLS v12.2.1.0
+    1.7 : Released with WLS v12.2.1.1.0
+    REFERENCES:
+        http://www.oracle.com/webfolder/technetwork/weblogic/weblogic-ejb-jar/index.html
+        https://docs.oracle.com/middleware/1221/wls/WLPRG/overview.htm#WLPRG107
+ -->
+<wls:weblogic-ejb-jar 
+    xmlns:wls="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar http://xmlns.oracle.com/weblogic/weblogic-ejb-jar/1.7/weblogic-ejb-jar.xsd">
+
+</wls:weblogic-ejb-jar>
